@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/********************************************
+************** Header Part ****************** 
+*********************************************/
+
+#head {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/donation13.jpg);
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.header_part {
+    width: 830px;
+    height: 320px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.header_part h1 {
+    text-align: center;
+    font-size: 65px;
+    line-height: 80px;
+    margin-top: 100px;
+}
+
+.header_part p {
+    font-size: 18px;
+    margin-left: 7em;
+    margin-right: 7em;
+    line-height: 30px;
+    position: relative;
+    top: -20px;
+}
+
+.header_part button {
+    position: relative;
+    top: -20px;
+}
+
+/********************************************
+******************* Button ****************** 
+*********************************************/
+
+.btn {
+    padding: 1em 2em;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+    background-color: #FF5959;
+    border: none;
+    border-radius: .4em;
+}
+
+.btn:hover {
+    background-color: #d14d4d;
+    cursor: pointer;
+    color: gainsboro;
+}
+
+/**************************************************
+******************* Donate Today ****************** 
+***************************************************/
+
+#donate_today {
+    color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_1 h1 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.content_1 p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 28em;
+    margin-right: 28em;
+    line-height: 30px;
+    position: relative;
+    top: -20px;
+    color: #707070;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.box {
+    margin: .8em;
+    width: 130px;
+    height: 100px;
+    background-color: #FAFAFA;
+    color: #707070;
+    padding: 30px 20px 0px 10px;
+    text-align: center;
+    border: 1px solid white;
+    top: 10px;
+    transition: all ease-in 1s;
+}
+
+.box:hover {
+    cursor: pointer;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    background-color: #fadddd;
+    position: relative;
+    top: -10px;
+    transition: all ease-in 0.5s;
+}
+
+.content_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content_2 input {
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    text-decoration: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid 707070;
+    width: 800%;
+    opacity: 60%;
+}
