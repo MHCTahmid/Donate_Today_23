@@ -255,3 +255,83 @@ hr {
     position: relative;
     left: 90px;
 }
+
+/***************************************************
+******************* Get My Update ****************** 
+****************************************************/
+
+.email_part {
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin: 0 auto;
+}
+
+.email_part input {
+    background-color: #D9D9D9;
+    border: none;
+    width: 275px;
+    height: 48px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+.sub_btn {
+    padding: 0.7em 2em;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    left: -5px;
+    background-color: #FF5959;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.sub_btn:hover {
+    background-color: #d14d4d;
+    cursor: pointer;
+    color: gainsboro;
+}
+
+.sub_part {
+    position: relative;
+    top: 80px;
+}
+
+#update_part {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+/********************************************
+******************* Footer ****************** 
+*********************************************/
+
+
+
+footer {
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+
+.message_part {
+    position: relative;
+    top: 50px;
+}
+
+footer h1 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 36px;
+}
+
+footer p {
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+}
