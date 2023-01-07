@@ -188,3 +188,70 @@ hr {
     margin: 50px;
     margin-bottom: 130px;
 }
+
+/************************************************************
+******************* Texts and Image Part-1 ****************** 
+*************************************************************/
+.texts {
+    width: 490px;
+    height: 374px;
+    padding: 10px 40px;
+}
+
+.texts h1 {
+    font-size: 45px;
+}
+
+.texts p {
+    color: #707070;
+    line-height: 1.4em;
+    padding-right: 100px;
+}
+
+.image_part_1 {
+    width: 456px;
+    height: 477px;
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#text_and_image_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.btn_space {
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+/************************************************************
+******************* Texts and Image Part-2 ****************** 
+*************************************************************/
+
+#text_and_image_2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.image_part_2 {
+    width: 456px;
+    height: 477px;
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.text_spacing h1 {
+    margin-right: 200px;
+}
+
+.text_spacing {
+    position: relative;
+    left: 90px;
+}
